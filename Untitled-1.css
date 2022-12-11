@@ -1,0 +1,405 @@
+* {
+
+margin: 0;
+padding: 0;
+}
+
+p {
+
+color:#969696 ;
+    
+}
+
+/* nav */
+
+.nav {
+
+display: flex;
+justify-content: flex-end;
+font-size: 20px;
+list-style-type: none;
+align-items: center;
+margin-top: 25px;
+margin-right: 20px;
+color: rgb(90, 179, 102);
+position: fixed;
+top: 0;
+right: 0;
+
+}
+
+.nav li {
+
+padding-right: 25px;
+cursor: pointer;
+
+}
+
+nav h2 {
+
+position: fixed;
+margin-top: 10px;
+margin-left: 30px;
+font-size: 40px;
+color: orange;
+
+}
+
+/* welcome to */
+
+.header {
+
+background-image: url(5.jpg);
+background-size: cover;
+background-position: 50%;
+height: 100%;
+text-align: center;
+color: white;
+font-size: 28px;
+
+}
+
+.fromheader {
+
+padding-top: 20%;
+
+}
+
+.fromheader h1 {
+
+font-size: 70px;
+
+}
+
+.fromheader p,h2 {
+
+color: #ccc;
+
+}
+
+
+.btncontact {
+
+padding: 15px 15px;
+border-radius: 4px;
+border: 2px solid white;
+font-weight: bold;
+background: none;
+color: white;
+margin-left: 10px;
+cursor: pointer;
+transition: 0.7s;
+font-size: 15px;
+
+}
+
+.btncontact:hover {
+
+background-color: white;
+color: black
+
+}
+
+.btnlearn {
+
+padding: 15px 15px;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+background: #8e7754;
+color: white;
+cursor: pointer;
+transition: 0.7s;
+font-size: 15px;
+
+}
+
+.btnlearn:hover {
+
+background-color: white;
+color: black
+
+}
+
+/* who we are */
+
+.whoweare {
+
+display: flex;
+width: 90%;
+justify-content: center;
+margin: 50px auto;
+
+}
+
+.imgwhoweare {
+
+width: 40%;
+padding: 0px 15px;
+
+}
+
+.textwho {
+
+line-height: 40px;
+font-weight: bold;
+font-size: 18px;
+padding: 0px 25px;
+font-family: Arial, Helvetica, sans-serif;
+margin: auto;
+color: #969696;
+
+}
+
+.mune {
+
+list-style-type: none;
+padding-top: 15px;
+
+}
+
+.whowe {
+
+text-align: center;
+
+}
+
+.whowe h3 {
+
+padding-bottom: 15px;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* Our Location */
+
+.ourlocations {
+
+background-color: #6868681a;
+
+}
+
+.ourlocation {
+
+display: flex;
+justify-content: center;
+width: 90%;
+text-align: center;
+margin: auto;
+padding: 50px 0px;
+
+}
+
+.imglocation {
+
+width: 45%;
+padding: 0px 15px;
+
+}
+
+.textlocation {
+
+text-align: center;
+font-size: 18px;
+font-family: sans-serif;
+line-height: 40px;
+padding: 0px 15px;
+margin: auto;
+
+}
+
+.textlocation h3 {
+
+padding-bottom: 15px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* our baking */
+
+.ourbaking {
+
+text-align: center;
+margin: 40px
+
+}
+
+.photos {
+
+display: flex;
+justify-content: center;
+width: 90%;
+margin: 30px auto;
+
+}
+
+.images {
+
+width: 100%;
+padding-bottom: 10px;
+
+}
+
+.alone {
+
+padding: 0px 20px;
+line-height: 30px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.alone p {
+
+color:#686868 ;
+
+}
+
+.ourbaking h3 {
+
+font-size: 25px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* Contact information */
+
+.back {
+
+    background-color: #6868681a;
+
+}
+
+.imgcontact {
+
+width: 90%;
+padding: 0px 20px;
+
+
+}
+
+.contacts {
+
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 0px auto;
+padding: 50px 0px;
+
+}
+
+.texcontact {
+
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    color: #969696;
+
+}
+
+/* footar */
+
+.footar {
+
+background-color: rgb(71, 60, 60);
+
+}
+
+.flater {
+
+    display:flex ;
+width: 90%;
+margin: 0px auto;
+font-size: 20px;
+
+}
+
+.textflooter {
+    list-style-type: none;
+margin: 0px 20px;
+width: 25%;
+margin-top: 50px;
+margin-bottom: 50px;
+line-height: 35px;
+color: #969696;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textflooter h3 {
+
+color: white;
+
+}
+
+.hov {
+
+transition: 0.7s;
+cursor: pointer;
+
+}
+
+.hov:hover {
+
+color: white;
+
+}
+
+/* logo */
+
+.lastone {
+
+
+background-color: rgb(175, 85, 85);
+color: white;
+text-align: center;
+padding: 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
